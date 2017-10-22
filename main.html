@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        
+        #header {
+            text-align: left;
+            color: Green;
+        }
+        
+        p {
+            font-family: verdana;
+            font-size: 20px;
+        }
+        
+        #rules {
+            font-size: 15px;
+            color: navy;
+        }
+    </style>
+</head>
+
+<body>
+
+    <br/>
+    <h1 id="header">Team Leaders Coding Test-Problem 1 : Discounts</h1> coded by Pouyan Raj
+    <br/> pouyan.rajabzadeh@mail.polimi.it
+    <br/> --------------------------------------------------------------------------------------------------------------------------------
+    <h3>Rules :</h3>
+    <p id=rules>
+        *to begin you should be on "main.html"
+        <br/> *Save you order in the name of "order.json" via the upload button on "main.html"
+        <br/> *Upload manually your <i>product file </i>in the name of "products.json" into your e.g. <i>htdocs,www...</i>,folder
+        <br/> *the code reads the <i>prices</i> including (total,unit-price) form your "order.json".make sure you have the right calucaltions.
+        <br/> *the code reads the <i>category id</i> from "products.json".
+        <br/> *browse your "order.json" and click upload .you can view your uploaded order using "show json" button or delete the file by hitting the "delete json" button.
+        <br/> *in case you wanna upload a new order ,you should delete and upload again or you can edit the file ! upto you !
+        <br/> *make sure jsons are valid to avoid errors
+        <br/> *hit <i>calculate</i> to continue
+        <br/> *the code looks for multiplications of 5 in the switch category and subtracts one unit-price from total in the end as a gift .for example for ten ,two "unit-price" will be subtracted.
+        <br/> *final price will get a discount if the total price of everything together at the beginning(defined by total) is more than 1000 .
+        <br/>
+
+    </p>
+
+    <form action="upload.php" method="post" enctype="multipart/form-data" target="myiframe">
+        Please Update your order in the name of <b>"order.json"</b>:
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <br/>
+        <br/> Upload your <b>"order.json"</b>:
+        <input type="submit" value="Upload json" name="submit">
+    </form>
+
+    --------------------------------------------------------------------------------------------------------------------------------
+
+    <form action="delete.php" method="post" enctype="multipart/form-data" target="myiframe">
+        Delete uploaded <b>"order.json"</b>:
+
+        <input type="submit" value="Delete json" name="submit">
+    </form>
+
+    --------------------------------------------------------------------------------------------------------------------------------
+    <form action="show.php" method="post" enctype="multipart/form-data" target="myiframe">
+        Show <b>"order.json"</b>:
+        <input type="submit" value="show json" name="submitjason">
+        <br/>
+    </form>
+    --------------------------------------------------------------------------------------------------------------------------------
+    <br/>
+    <form action="calculate.php" method="post" enctype="multipart/form-data" target="myiframe">
+        Calculate the final price of <b>"order.json"</b>:
+
+        <input type="submit" value="Calculate" name="submit">
+        <br/>
+        <br/>
+    </form>
+    <iframe name="myiframe" height="400" width="700" style="border:none;" target="_parent"></iframe>
+
+</body>
+
+</html>
