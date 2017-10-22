@@ -1,5 +1,5 @@
        
-              *this project contains one main.html + 7 php files
+              *this project contains one main.html + 6 php files + 2 jpegs
         <br/> *put all the file into the www directory
         <br/> *to begin you should browse "main.html"
         <br/> *Save you order in the name of "order.json" via the upload button on "main.html"
