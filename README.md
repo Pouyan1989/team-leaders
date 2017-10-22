@@ -12,4 +12,4 @@
         <br/> *hit <i>calculate</i> to continue
         <br/> *the code looks for multiplications of 5 in the switch category and subtracts one unit-price from total in the end as a gift .for example for ten ,two "unit-price" will be subtracted.
         <br/> *final price will get a discount if the total price of everything together at the beginning(defined by total) is more than 1000 .
-        <br/>
+        
