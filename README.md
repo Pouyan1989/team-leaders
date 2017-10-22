@@ -1,6 +1,6 @@
        
               *this project contains one main.html + 6 php files + 2 jpegs
-        <br/> *put all the file into the www directory
+        <br/> *put all the files into the www directory
         <br/> *to begin you should browse "main.html"
         <br/> *Save you order in the name of "order.json" via the upload button on "main.html"
         <br/> *Upload manually your <i>product file </i>in the name of "products.json" into your e.g. <i>htdocs,www...</i>,folder
