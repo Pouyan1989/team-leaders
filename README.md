@@ -1,4 +1,7 @@
-        <br/>*to begin you should be on "main.html"
+       
+              *this project contains one main.html + 7 php files
+        <br/> *put all the file into the www directory
+        <br/> *to begin you should be on "main.html"
         <br/> *Save you order in the name of "order.json" via the upload button on "main.html"
         <br/> *Upload manually your <i>product file </i>in the name of "products.json" into your e.g. <i>htdocs,www...</i>,folder
         <br/> *the code reads the <i>prices</i> including (total,unit-price) form your "order.json".make sure you have the right calucaltions.
